@@ -30,7 +30,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. `data.json` exists with a complete schema covering clips, photos, awards, and video embeds — populated with at least placeholder entries for every section
   3. Grace can update a clip entry in `data.json` using GitHub's web editor without touching any HTML or CSS file
   4. Every photo in the `images/` folder is compressed to 400 KB or less and confirmed at no wider than 2000px on its longest edge
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 01-01-PLAN.md — CSS design token system (style.css + test.html)
+- [ ] 01-02-PLAN.md — Content schema (data.json fully populated)
+- [ ] 01-03-PLAN.md — Image optimization (14 images to images/ via sips)
 
 ### Phase 2: Shell and About
 **Goal**: Every page has a working shared nav and footer, the About page is live, and the site is publicly accessible on GitHub Pages
@@ -93,7 +97,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/3 | Not started | - |
 | 2. Shell and About | 0/TBD | Not started | - |
 | 3. Clips and Awards | 0/TBD | Not started | - |
 | 4. Photography Gallery | 0/TBD | Not started | - |
