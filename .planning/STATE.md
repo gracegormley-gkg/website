@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-01-PLAN.md — style.css and test.html created and committed
-last_updated: "2026-03-20T22:15:01.423Z"
+stopped_at: Completed 01-02-PLAN.md — data.json created and committed
+last_updated: "2026-03-20T22:18:48.705Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 3
-  completed_plans: 1
+  completed_plans: 2
   percent: 33
 ---
 
@@ -51,6 +51,7 @@ Progress: [███░░░░░░░] 33%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 2 | 1 tasks | 2 files |
+| Phase 01-foundation P02 | 2 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -66,6 +67,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: CSS comment wording adjusted to avoid false-positive class-selector regex in automated verification
 - [Phase 01-foundation]: Universal reset inlined to one line to keep style.css under 80 lines (77 total)
 - [Phase 01-foundation]: --leading-loose token included for a complete line-height scale even though no Phase 1 rule uses it yet
+- [Phase 01-foundation]: data.json field names are a public API — changing them requires updating every Phase 3-6 render script
+- [Phase 01-foundation]: Photo naming convention locked: images/photo-01.jpg through photo-13.jpg; Plan 03 must match exactly
+- [Phase 01-foundation]: PLACEHOLDER strings (not empty strings) used for videos.embedUrl and knight_lab.description pending Grace input
 
 ### Pending Todos
 
@@ -78,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-20T22:15:01.421Z
-Stopped at: Completed 01-01-PLAN.md — style.css and test.html created and committed
+Last session: 2026-03-20T22:18:48.703Z
+Stopped at: Completed 01-02-PLAN.md — data.json created and committed
 Resume file: None
