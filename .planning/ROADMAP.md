@@ -46,7 +46,11 @@ Plans:
   3. Grace's email address and LinkedIn URL are clickable in the footer on the About page
   4. Clicking "Download Resume" on the About page downloads the PDF to the visitor's device
   5. The About page tagline communicates the journalism + data science angle (not a generic student bio)
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 02-01-PLAN.md — Web components shell (components.js, nav/footer CSS, 6 stub pages)
+- [ ] 02-02-PLAN.md — About page and resume PDF (index.html, assets/resume.pdf)
+- [ ] 02-03-PLAN.md — GitHub remote setup and Pages deployment
 
 ### Phase 3: Clips and Awards
 **Goal**: Editors can find, read, and follow links to Grace's strongest published work and her award-recognized pieces
@@ -98,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-20 |
-| 2. Shell and About | 0/TBD | Not started | - |
+| 2. Shell and About | 0/3 | Not started | - |
 | 3. Clips and Awards | 0/TBD | Not started | - |
 | 4. Photography Gallery | 0/TBD | Not started | - |
 | 5. Featured Projects | 0/TBD | Not started | - |
