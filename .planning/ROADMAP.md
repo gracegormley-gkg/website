@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-20 |
-| 2. Shell and About | 0/3 | Not started | - |
+| 2. Shell and About | 1/3 | In Progress|  |
 | 3. Clips and Awards | 0/TBD | Not started | - |
 | 4. Photography Gallery | 0/TBD | Not started | - |
 | 5. Featured Projects | 0/TBD | Not started | - |

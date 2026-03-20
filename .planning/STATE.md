@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-03-PLAN.md — images/ directory with 14 optimized JPEGs committed
-last_updated: "2026-03-20T22:47:02.426Z"
+stopped_at: Completed 02-01-PLAN.md — components.js and 6 stub pages committed
+last_updated: "2026-03-20T23:07:11.228Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 6
+  completed_plans: 4
   percent: 33
 ---
 
@@ -53,6 +53,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 01-foundation P01 | 2 | 1 tasks | 2 files |
 | Phase 01-foundation P02 | 2 | 1 tasks | 1 files |
 | Phase 01-foundation P03 | 3min | 1 tasks | 14 files |
+| Phase 02-shell-and-about P01 | 525577min | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: PLACEHOLDER strings (not empty strings) used for videos.embedUrl and knight_lab.description pending Grace input
 - [Phase 01-foundation]: Quality floor 65 applied — 9 images exceed 400 KB at q65 and are flagged for Phase 4 curation review
 - [Phase 01-foundation]: photos 11-13 source files were 2048px — resized to 2000px before recompression to satisfy dimension spec
+- [Phase 02-shell-and-about]: Light DOM used (not Shadow DOM) so nav elements inherit CSS custom properties from style.css without any piercing
+- [Phase 02-shell-and-about]: pathname.split('/').pop() || 'index.html' fallback required for GitHub Pages root URL where pathname ends in /
 
 ### Pending Todos
 
@@ -85,6 +88,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-20T22:23:22.734Z
-Stopped at: Completed 01-03-PLAN.md — images/ directory with 14 optimized JPEGs committed
+Last session: 2026-03-20T23:07:11.227Z
+Stopped at: Completed 02-01-PLAN.md — components.js and 6 stub pages committed
 Resume file: None
