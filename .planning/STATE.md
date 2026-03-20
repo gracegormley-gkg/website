@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 02-01-PLAN.md — components.js and 6 stub pages committed
-last_updated: "2026-03-20T23:07:11.228Z"
+stopped_at: Completed 02-02-PLAN.md — index.html About page and assets/resume.pdf committed
+last_updated: "2026-03-20T23:10:40.553Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 1
   total_plans: 6
-  completed_plans: 4
+  completed_plans: 5
   percent: 33
 ---
 
@@ -54,6 +54,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 01-foundation P02 | 2 | 1 tasks | 1 files |
 | Phase 01-foundation P03 | 3min | 1 tasks | 14 files |
 | Phase 02-shell-and-about P01 | 525577min | 2 tasks | 8 files |
+| Phase 02-shell-and-about P02 | 2min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -76,6 +77,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: photos 11-13 source files were 2048px — resized to 2000px before recompression to satisfy dimension spec
 - [Phase 02-shell-and-about]: Light DOM used (not Shadow DOM) so nav elements inherit CSS custom properties from style.css without any piercing
 - [Phase 02-shell-and-about]: pathname.split('/').pop() || 'index.html' fallback required for GitHub Pages root URL where pathname ends in /
+- [Phase 02-shell-and-about]: Static HTML used for About page (no runtime fetch) — renders instantly, works with JS disabled, About content is stable
+- [Phase 02-shell-and-about]: Tagline 'Reporting with data. Writing with purpose.' embedded directly in HTML — more distinctive than generic data.json value
 
 ### Pending Todos
 
@@ -88,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-20T23:07:11.227Z
-Stopped at: Completed 02-01-PLAN.md — components.js and 6 stub pages committed
+Last session: 2026-03-20T23:10:40.551Z
+Stopped at: Completed 02-02-PLAN.md — index.html About page and assets/resume.pdf committed
 Resume file: None

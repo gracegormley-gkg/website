@@ -16,9 +16,9 @@
 
 ### About
 
-- [ ] **ABOUT-01**: User can view Grace's headshot, name, and bio on the About page
-- [ ] **ABOUT-02**: User can download Grace's resume PDF from the About page
-- [ ] **ABOUT-03**: About page includes a tagline that captures the journalism + data science angle (not just a generic bio)
+- [x] **ABOUT-01**: User can view Grace's headshot, name, and bio on the About page
+- [x] **ABOUT-02**: User can download Grace's resume PDF from the About page
+- [x] **ABOUT-03**: About page includes a tagline that captures the journalism + data science angle (not just a generic bio)
 
 ### Clips
 
@@ -94,9 +94,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SITE-04 | Phase 2 | Pending |
 | SITE-05 | Phase 1 | Complete |
 | SITE-06 | Phase 1 | Complete |
-| ABOUT-01 | Phase 2 | Pending |
-| ABOUT-02 | Phase 2 | Pending |
-| ABOUT-03 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Complete |
+| ABOUT-02 | Phase 2 | Complete |
+| ABOUT-03 | Phase 2 | Complete |
 | CLIP-01 | Phase 3 | Pending |
 | CLIP-02 | Phase 3 | Pending |
 | PHOTO-01 | Phase 4 | Pending |
