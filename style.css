@@ -1,0 +1,77 @@
+/* Grace Gormley Portfolio — Design System */
+/* Fonts loaded via <link> in every page <head>:
+   Newsreader: ital,opsz,wght@0,6..72,300..800;1,6..72,300..800
+   Inter: opsz,wght@14..32,400;14..32,500;14..32,600
+   Google Fonts URL documented in the Phase 1 research file */
+
+:root {
+  /* Typography */
+  --font-editorial: 'Newsreader', Georgia, serif;
+  --font-ui: 'Inter', system-ui, sans-serif;
+
+  --text-xs:   0.75rem;   /* 12px — captions, credits */
+  --text-sm:   0.875rem;  /* 14px — metadata, nav items */
+  --text-base: 1rem;      /* 16px — body copy */
+  --text-lg:   1.125rem;  /* 18px — subheadings */
+  --text-xl:   1.5rem;    /* 24px — section headings */
+  --text-2xl:  2rem;      /* 32px — page titles */
+  --text-3xl:  2.75rem;   /* 44px — hero display size */
+
+  --leading-tight: 1.2;
+  --leading-body:  1.6;
+  --leading-loose: 1.8;
+
+  /* Colors — editorial neutral palette */
+  --color-ink:          #1a1a1a;  /* near-black for all body text */
+  --color-ink-muted:    #555555;  /* secondary text: publication names, dates */
+  --color-border:       #e0e0e0;  /* dividers, card borders */
+  --color-bg:           #ffffff;  /* page background */
+  --color-bg-subtle:    #f9f8f6;  /* subtle off-white for section backgrounds */
+  --color-accent:       #1a3a5c;  /* single accent — deep navy, used sparingly */
+  --color-link:         #1a3a5c;  /* links match accent */
+  --color-link-hover:   #0f2540;  /* slightly darker on hover */
+
+  /* Spacing — 8px grid */
+  --space-1:  0.25rem;  /*  4px */
+  --space-2:  0.5rem;   /*  8px */
+  --space-3:  0.75rem;  /* 12px */
+  --space-4:  1rem;     /* 16px */
+  --space-6:  1.5rem;   /* 24px */
+  --space-8:  2rem;     /* 32px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Layout */
+  --max-width-content: 720px;   /* readable column width for body text */
+  --max-width-wide:   1100px;   /* full-page containers, nav, gallery */
+  --border-radius:     4px;
+  --transition-fast:   150ms ease;
+}
+
+/* Base reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Base typography — element selectors only, no class names */
+body {
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  color: var(--color-ink);
+  background: var(--color-bg);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-editorial);
+  line-height: var(--leading-tight);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
