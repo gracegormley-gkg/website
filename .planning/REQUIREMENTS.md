@@ -30,7 +30,7 @@
 - [ ] **PHOTO-01**: User can browse a curated gallery of Grace's photos in a clean grid layout
 - [ ] **PHOTO-02**: User can click a photo to view it full-size (lightbox)
 - [ ] **PHOTO-03**: Each photo has a caption providing story context (not just a filename)
-- [ ] **PHOTO-04**: Gallery uses images from the existing project folder (compressed to web size before use)
+- [x] **PHOTO-04**: Gallery uses images from the existing project folder (compressed to web size before use)
 
 ### Video
 
@@ -102,7 +102,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PHOTO-01 | Phase 4 | Pending |
 | PHOTO-02 | Phase 4 | Pending |
 | PHOTO-03 | Phase 4 | Pending |
-| PHOTO-04 | Phase 1 | Pending |
+| PHOTO-04 | Phase 1 | Complete |
 | VIDEO-01 | Phase 6 | Pending |
 | VIDEO-02 | Phase 6 | Pending |
 | KNIGHT-01 | Phase 5 | Pending |
