@@ -12,7 +12,7 @@
 - [ ] **SITE-03**: Site renders correctly on mobile (375px viewport minimum)
 - [ ] **SITE-04**: Site deploys and is publicly accessible via GitHub Pages
 - [ ] **SITE-05**: Grace can update clips, photos, and awards by editing a single `data.json` file without touching HTML or CSS
-- [ ] **SITE-06**: Site uses modern minimal editorial design (clean whitespace, Newsreader + Inter typography, no decorative clutter)
+- [x] **SITE-06**: Site uses modern minimal editorial design (clean whitespace, Newsreader + Inter typography, no decorative clutter)
 
 ### About
 
@@ -93,7 +93,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SITE-03 | Phase 6 | Pending |
 | SITE-04 | Phase 2 | Pending |
 | SITE-05 | Phase 1 | Pending |
-| SITE-06 | Phase 1 | Pending |
+| SITE-06 | Phase 1 | Complete |
 | ABOUT-01 | Phase 2 | Pending |
 | ABOUT-02 | Phase 2 | Pending |
 | ABOUT-03 | Phase 2 | Pending |
