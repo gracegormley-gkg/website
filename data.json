@@ -1,0 +1,285 @@
+{
+  "_schema_version": "1.0",
+  "_instructions": "Edit this file to update site content. Add items to arrays to add content; remove items to remove content. Do not change field names — they are used by the site code. Date format: YYYY-MM-DD. Fields marked PLACEHOLDER need input from Grace before they can be filled.",
+
+  "clips": [
+    {
+      "title": "Hundreds gather at 'Good Trouble Lives On' event",
+      "publication": "Palo Alto Online",
+      "date": "2025-07-18",
+      "url": "https://www.paloaltoonline.com/social-justice/2025/07/18/hundreds-gather-at-good-trouble-lives-on-event/",
+      "pdf_fallback": "",
+      "featured": true,
+      "note": "Covered a local event on quick turnaround. All photos shot and edited by Grace."
+    },
+    {
+      "title": "'A time to reflect:' Buddhist festival draws crowds to Palo Alto",
+      "publication": "Palo Alto Online",
+      "date": "2025-08-04",
+      "url": "https://www.paloaltoonline.com/community/2025/08/04/a-time-to-reflect-buddhist-festival-draws-crowds-to-palo-alto/",
+      "pdf_fallback": "",
+      "featured": true,
+      "note": "In-depth article on a one-day turnaround. All photos shot and edited by Grace."
+    },
+    {
+      "title": "This endangered mint plant is native to only one place in the world: Edgewood Preserve",
+      "publication": "Redwood City Pulse",
+      "date": "2025-07-08",
+      "url": "https://www.rwcpulse.com/san-mateo-county/2025/07/08/this-endangered-mint-plant-is-native-to-only-one-place-in-the-world-edgewood-preserve/",
+      "pdf_fallback": "",
+      "featured": true,
+      "note": "Covered conservation efforts; attended a conservation mission in the field."
+    }
+  ],
+
+  "photos": [
+    {
+      "file": "images/photo-01.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context, e.g., 'Swimmers compete at the 2024 CCS Championships in Santa Clara.'",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description of what is shown in this photo"
+    },
+    {
+      "file": "images/photo-02.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-03.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-04.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-05.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-06.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-07.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-08.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-09.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-10.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-11.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-12.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    },
+    {
+      "file": "images/photo-13.jpg",
+      "caption": "PLACEHOLDER — one sentence of story context",
+      "credit": "Grace Gormley",
+      "alt": "PLACEHOLDER — accessible description"
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "What Can We Do?",
+      "embedUrl": "PLACEHOLDER — YouTube or Vimeo embed URL needed from Grace",
+      "description": "A video package produced and edited by Grace Gormley."
+    },
+    {
+      "title": "Move Your Feet",
+      "embedUrl": "PLACEHOLDER — YouTube or Vimeo embed URL needed from Grace",
+      "description": "A video package produced and edited by Grace Gormley."
+    }
+  ],
+
+  "awards": [
+    {
+      "name": "1st Place National Nonfiction Article",
+      "organization": "Columbia Scholastic Press Association (Gold Circle)",
+      "year": "2023",
+      "article_title": "California: Taking a Gamble?",
+      "url": "https://vikingsportsmag.com/uncategorized/2022/10/11/california-taking-a-gamble/",
+      "pdf_fallback": "https://drive.google.com/file/d/1g1tYtdBLbpTn2_88DlSdpIoH4n1Z5cwp/view?usp=sharing"
+    },
+    {
+      "name": "3rd Place National Sports Story",
+      "organization": "National Federation of Press Women",
+      "year": "2023",
+      "article_title": "California: Taking a Gamble?",
+      "url": "https://vikingsportsmag.com/uncategorized/2022/10/11/california-taking-a-gamble/",
+      "pdf_fallback": "https://drive.google.com/file/d/1g1tYtdBLbpTn2_88DlSdpIoH4n1Z5cwp/view?usp=sharing"
+    },
+    {
+      "name": "1st Place National Sports Story",
+      "organization": "National Scholastic Press Association (Clips and Clicks)",
+      "year": "2023",
+      "article_title": "Pioneering Progress",
+      "url": "https://vikingsportsmag.com/issue-stories/features/2023/03/31/pioneering-progress/",
+      "pdf_fallback": "https://drive.google.com/file/d/1JmTxv8AUREa1J3_NDMeWShc3QeBuEeFq/view?usp=sharing"
+    },
+    {
+      "name": "3rd Place National General Feature",
+      "organization": "Columbia Scholastic Press Association (Gold Circle)",
+      "year": "2023",
+      "article_title": "Menstruation Situation",
+      "url": "https://vikingsportsmag.com/issue-stories/features/2022/12/19/the-menstruation-situation/",
+      "pdf_fallback": "https://drive.google.com/file/d/1tjnPIgk6V58t6xpqgLaC9rpB3Ntx9zyC/view?usp=sharing"
+    },
+    {
+      "name": "2nd Place State Feature Story",
+      "organization": "California Press Women",
+      "year": "2023",
+      "article_title": "Menstruation Situation",
+      "url": "https://vikingsportsmag.com/issue-stories/features/2022/12/19/the-menstruation-situation/",
+      "pdf_fallback": "https://drive.google.com/file/d/1tjnPIgk6V58t6xpqgLaC9rpB3Ntx9zyC/view?usp=sharing"
+    },
+    {
+      "name": "2nd Place State Sports Story",
+      "organization": "California Press Women",
+      "year": "2023",
+      "article_title": "Beyond the Game",
+      "url": "",
+      "pdf_fallback": "https://drive.google.com/file/d/1FopToUSKhOwK9gYwk-6rMH246Xxf1TJK/view?usp=sharing"
+    },
+    {
+      "name": "2nd Place State Opinion Piece",
+      "organization": "California Press Women",
+      "year": "2023",
+      "article_title": "Breaking the Mold",
+      "url": "",
+      "pdf_fallback": "https://drive.google.com/file/d/1fT-eG4nwE3RoAIsS8k1F51VaccLnWQed/view?usp=sharing"
+    },
+    {
+      "name": "Excellence Award in Feature Writing",
+      "organization": "JEA National High School Journalism Convention",
+      "year": "2023",
+      "article_title": "",
+      "url": "",
+      "pdf_fallback": ""
+    },
+    {
+      "name": "2nd Place Feature Photo",
+      "organization": "JEA NorCal",
+      "year": "2024",
+      "article_title": "Eat My Bubbles",
+      "url": "https://drive.google.com/file/d/10RtzNGrnoO-iOu1ISggaB6p1Deiiw4ai/view?usp=sharing",
+      "pdf_fallback": ""
+    },
+    {
+      "name": "3rd Place Sports Photo",
+      "organization": "JEA NorCal",
+      "year": "2024",
+      "article_title": "Diving Into States",
+      "url": "https://drive.google.com/file/d/15ZlaHubioWTv8X3Omu5wR1cVvtPYw35w/view",
+      "pdf_fallback": ""
+    },
+    {
+      "name": "Casey Nichols Service Above Self Award",
+      "organization": "Journalism Education Association of NorCal",
+      "year": "2024",
+      "article_title": "",
+      "url": "",
+      "pdf_fallback": ""
+    }
+  ],
+
+  "press_coverage": [
+    {
+      "outlet": "Verde Magazine",
+      "title": "Journey Into Journalism",
+      "url": "https://verdemagazine.com/journey-into-journalism",
+      "description": "Feature about SUSO camp. Quote from Executive Director of DreamCatchers Nicole Chiu-Wang."
+    },
+    {
+      "outlet": "Hearts of Gold Podcast",
+      "title": "Hearts of Gold Podcast — Grace Gormley",
+      "url": "https://www.youtube.com/watch?v=S3ao5KclBN0",
+      "description": "Video podcast episode featuring Grace's work."
+    },
+    {
+      "outlet": "Paly Voice (Voice Online News)",
+      "title": "High school student develops journalism summer camp",
+      "url": "https://palyvoice.com/173161/features/high-school-student-develops-journalism-summer-camp/",
+      "description": "Feature about SUSO camp. Quote from DreamCatchers Program Manager Fatima Lopez-Sandoval praising Grace's sustainable curriculum."
+    }
+  ],
+
+  "about": {
+    "name": "Grace Gormley",
+    "tagline": "Journalism and data science student at Northwestern University Medill",
+    "bio": "I am a journalism and data science double major in my sophomore year at Northwestern University, in the Medill School of Journalism. I strive to combine my data science skills with people-centric reporting to hold those in power accountable and tell important stories. I get excited about investigative and watchdog journalism driven by data.",
+    "headshot": "images/headshot.jpg",
+    "headshot_credit": "Anna Hoch-Kenney",
+    "email": "gracegormley@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/grace-gormley/",
+    "resume_pdf": "assets/resume.pdf"
+  },
+
+  "knight_lab": {
+    "project_name": "EIS Archives",
+    "subtitle": "World's Largest Exploratory EIS Database",
+    "live_url": "https://nulib-ds.github.io/EIS-Final/",
+    "grace_role": "AI Team Lead — Metadata Pipeline",
+    "description": "PLACEHOLDER — Content brief with Grace needed before writing this section. Describe: what the EIS Archives project is, why it matters, and Grace's specific contribution as AI team lead.",
+    "tools": ["BERTopic", "OCR", "topic modelling", "local LLMs", "GPT-4", "Claude Code", "supercompute cluster"]
+  },
+
+  "suso_camp": {
+    "overview": "Stand Up, Speak Out: Journalism for Young Activists is a project Grace undertook for her Girl Scout Gold Award. She wanted to address problems in journalism by combining her passions for teaching, public speaking, service, and journalism. The project took almost an entire year and more than 100 hours of work.",
+    "website_url": "https://susocamp.weebly.com/",
+    "girl_scout_award": "Girl Scout Gold Award",
+    "impact": "~70 students, 200+ magazines printed, camp continued in 2024 without Grace's direct involvement",
+    "pillars": [
+      {
+        "name": "Writing",
+        "description": "Over 70 students wrote articles with research and peer quotes about topics they care about, including teen homelessness and climate change."
+      },
+      {
+        "name": "Public Speaking",
+        "description": "Students rehearsed and read their articles aloud to classrooms, building confidence in public speaking."
+      },
+      {
+        "name": "Results",
+        "description": "Student stories were compiled into three printed magazines (one per grade). Nearly $1,000 was fundraised to print over 200 total magazines for students to take home."
+      },
+      {
+        "name": "Longevity",
+        "description": "Grace created a website with all resources needed to replicate the camp. She worked with local organizations to ensure continuation and contacted dozens of journalism teachers to spread SUSO nationwide. The camp continued in 2024 with DreamCatchers without her direct involvement."
+      }
+    ]
+  }
+}
