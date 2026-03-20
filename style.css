@@ -127,3 +127,69 @@ a:hover {
   color: var(--color-ink-muted);
   margin-top: var(--space-24);
 }
+
+/* About page — Phase 2 */
+.about-page {
+  max-width: var(--max-width-content);
+  margin: var(--space-12) auto;
+  padding: 0 var(--space-8);
+}
+
+.about-hero {
+  display: flex;
+  gap: var(--space-8);
+  align-items: flex-start;
+  margin-bottom: var(--space-12);
+}
+
+.about-headshot {
+  width: 200px;
+  height: auto;
+  border-radius: var(--border-radius);
+  flex-shrink: 0;
+}
+
+.about-hero__text h1 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-2);
+}
+
+.about-tagline {
+  font-family: var(--font-editorial);
+  font-size: var(--text-lg);
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+.about-bio {
+  margin-bottom: var(--space-8);
+  line-height: var(--leading-body);
+}
+
+.about-actions {
+  margin-bottom: var(--space-4);
+}
+
+.btn-download {
+  display: inline-block;
+  padding: var(--space-3) var(--space-6);
+  background: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transition: background var(--transition-fast);
+}
+
+.btn-download:hover {
+  background: var(--color-link-hover);
+  color: #ffffff;
+}
+
+.about-credit {
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  margin-top: var(--space-4);
+}
