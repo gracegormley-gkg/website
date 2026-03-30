@@ -10,7 +10,7 @@
 - [x] **SITE-01**: User can navigate between all 7 pages (About, Clips, Photography, Video, Knight Lab, SUSO Camp, Awards) via a consistent navigation bar
 - [x] **SITE-02**: User sees email and LinkedIn contact links in a footer on every page
 - [ ] **SITE-03**: Site renders correctly on mobile (375px viewport minimum)
-- [ ] **SITE-04**: Site deploys and is publicly accessible via GitHub Pages
+- [x] **SITE-04**: Site deploys and is publicly accessible via GitHub Pages
 - [x] **SITE-05**: Grace can update clips, photos, and awards by editing a single `data.json` file without touching HTML or CSS
 - [x] **SITE-06**: Site uses modern minimal editorial design (clean whitespace, Newsreader + Inter typography, no decorative clutter)
 
@@ -91,7 +91,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SITE-01 | Phase 2 | Complete |
 | SITE-02 | Phase 2 | Complete |
 | SITE-03 | Phase 6 | Pending |
-| SITE-04 | Phase 2 | Pending |
+| SITE-04 | Phase 2 | Complete |
 | SITE-05 | Phase 1 | Complete |
 | SITE-06 | Phase 1 | Complete |
 | ABOUT-01 | Phase 2 | Complete |

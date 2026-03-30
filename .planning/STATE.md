@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 02-02-PLAN.md — index.html About page and assets/resume.pdf committed
-last_updated: "2026-03-20T23:10:40.553Z"
+stopped_at: Completed 02-03-PLAN.md — all commits pushed to github.com/gracegormley-gkg/website, awaiting GitHub Pages manual setup
+last_updated: "2026-03-30T15:22:49.919Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 6
-  completed_plans: 5
+  completed_plans: 6
   percent: 33
 ---
 
@@ -55,6 +55,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 01-foundation P03 | 3min | 1 tasks | 14 files |
 | Phase 02-shell-and-about P01 | 525577min | 2 tasks | 8 files |
 | Phase 02-shell-and-about P02 | 2min | 2 tasks | 3 files |
+| Phase 02-shell-and-about P03 | 5min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -79,6 +80,8 @@ Recent decisions affecting current work:
 - [Phase 02-shell-and-about]: pathname.split('/').pop() || 'index.html' fallback required for GitHub Pages root URL where pathname ends in /
 - [Phase 02-shell-and-about]: Static HTML used for About page (no runtime fetch) — renders instantly, works with JS disabled, About content is stable
 - [Phase 02-shell-and-about]: Tagline 'Reporting with data. Writing with purpose.' embedded directly in HTML — more distinctive than generic data.json value
+- [Phase 02-shell-and-about]: Repository renamed from EIS-Final to 'website' — live URL is https://gracegormley-gkg.github.io/website/
+- [Phase 02-shell-and-about]: GitHub Pages serves from main branch root — no build step, static files direct
 
 ### Pending Todos
 
@@ -91,6 +94,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-20T23:10:40.551Z
-Stopped at: Completed 02-02-PLAN.md — index.html About page and assets/resume.pdf committed
+Last session: 2026-03-30T15:22:49.905Z
+Stopped at: Completed 02-03-PLAN.md — all commits pushed to github.com/gracegormley-gkg/website, awaiting GitHub Pages manual setup
 Resume file: None
