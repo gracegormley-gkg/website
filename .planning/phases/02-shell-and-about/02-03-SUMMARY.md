@@ -47,7 +47,7 @@ completed: 2026-03-30
 - **Duration:** ~5 min
 - **Started:** 2026-03-30
 - **Completed:** 2026-03-30
-- **Tasks:** 1 of 2 automated (Task 2 is human-verify checkpoint)
+- **Tasks:** 2 of 2 complete (Task 1 automated, Task 2 human-verified)
 - **Files modified:** 1 (.git/config — remote URL updated)
 
 ## Accomplishments
@@ -55,7 +55,8 @@ completed: 2026-03-30
 - Updated remote origin URL from `EIS-Final.git` to `https://github.com/gracegormley-gkg/website`
 - Pushed all 10 commits from Phases 1 and 2 to remote main branch
 - Repository is live at https://github.com/gracegormley-gkg/website
-- GitHub Pages configuration instructions provided to user (manual step required)
+- GitHub Pages enabled via repository Settings UI — site deployed to https://gracegormley-gkg.github.io/website/
+- User verified live site: headshot, name, bio, all 7 nav links, resume download, and footer links all confirmed working
 
 ## Task Commits
 
@@ -117,9 +118,10 @@ GitHub Pages must be enabled manually (no `gh` CLI available):
 - Confirm footer LinkedIn and email links work
 
 ## Next Phase Readiness
-- All Phase 2 files are live on GitHub — phase 3 (clips page) can begin once GitHub Pages is confirmed working
-- The live URL for all future work references is https://gracegormley-gkg.github.io/website/
-- `data.json` clips content from Grace is needed before Phase 3 can fully execute
+- Phase 2 is fully complete — site is live and user-verified at https://gracegormley-gkg.github.io/website/
+- Every future commit pushed to main deploys automatically within ~60 seconds
+- Phase 3 (clips page) can begin — clips.html stub is already live at https://gracegormley-gkg.github.io/website/clips.html
+- `data.json` clips content from Grace is needed before Phase 3 can fully populate the clips page
 
 ---
 *Phase: 02-shell-and-about*
