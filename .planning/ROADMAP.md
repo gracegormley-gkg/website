@@ -61,7 +61,11 @@ Plans:
   2. Every clip link has been click-tested and opens the correct article (no 404s, no redirect loops)
   3. The Awards page lists each award with the award name, granting organization, and a working link to the recognized work
   4. Press coverage items (Verde Magazine, Paly Voice, Hearts of Gold podcast) appear on the Awards page with working links
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 03-01-PLAN.md — Clips data + clips.html + Phase 3 CSS (data.json, clips.html, style.css)
+- [ ] 03-02-PLAN.md — Awards page (awards.html)
+- [ ] 03-03-PLAN.md — Deploy and link-check verification
 
 ### Phase 4: Photography Gallery
 **Goal**: Visitors can browse a curated grid of Grace's photojournalism work and open any image full-size with context
@@ -103,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-20 |
 | 2. Shell and About | 3/3 | Complete   | 2026-03-30 |
-| 3. Clips and Awards | 0/TBD | Not started | - |
+| 3. Clips and Awards | 0/3 | Not started | - |
 | 4. Photography Gallery | 0/TBD | Not started | - |
 | 5. Featured Projects | 0/TBD | Not started | - |
 | 6. Video and Pre-Launch | 0/TBD | Not started | - |
