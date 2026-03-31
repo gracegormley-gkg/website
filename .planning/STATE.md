@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: "Completed 02-03-PLAN.md — site live at https://gracegormley-gkg.github.io/website/, Phase 2 complete"
-last_updated: "2026-03-30T15:59:51.995Z"
+stopped_at: Completed 03-01-PLAN.md — clips.html built, Phase 3 CSS added to style.css
+last_updated: "2026-03-31T19:00:34.997Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 2
-  total_plans: 6
-  completed_plans: 6
+  total_plans: 9
+  completed_plans: 7
   percent: 33
 ---
 
@@ -57,6 +57,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 02-shell-and-about P02 | 2min | 2 tasks | 3 files |
 | Phase 02-shell-and-about P03 | 5min | 1 tasks | 1 files |
 | Phase 02-shell-and-about P03 | 15min | 2 tasks | 0 files |
+| Phase 03-clips-and-awards P01 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -85,6 +86,8 @@ Recent decisions affecting current work:
 - [Phase 02-shell-and-about]: GitHub Pages serves from main branch root — no build step, static files direct
 - [Phase 02-shell-and-about]: Repository renamed from EIS-Final to 'website' — live URL is https://gracegormley-gkg.github.io/website/
 - [Phase 02-shell-and-about]: GitHub Pages serves from main branch root — no build step, static files served directly
+- [Phase 03-clips-and-awards]: User overrode CLIP-01 8-15 clip target — 3 curated clips approved for launch; data.json unchanged
+- [Phase 03-clips-and-awards]: fetch-and-render pattern established for clips.html — inline script fetches data.json, UTC-safe date formatting (iso+T00:00:00)
 
 ### Pending Todos
 
@@ -97,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T15:31:11.183Z
-Stopped at: Completed 02-03-PLAN.md — site live at https://gracegormley-gkg.github.io/website/, Phase 2 complete
+Last session: 2026-03-31T19:00:34.989Z
+Stopped at: Completed 03-01-PLAN.md — clips.html built, Phase 3 CSS added to style.css
 Resume file: None

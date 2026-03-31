@@ -22,8 +22,8 @@
 
 ### Clips
 
-- [ ] **CLIP-01**: User can browse Grace's published articles, each showing publication name, date, and a link to the live article
-- [ ] **CLIP-02**: Clips page features only Grace's strongest published work (curated, not exhaustive)
+- [x] **CLIP-01**: User can browse Grace's published articles, each showing publication name, date, and a link to the live article
+- [x] **CLIP-02**: Clips page features only Grace's strongest published work (curated, not exhaustive)
 
 ### Photography
 
@@ -97,8 +97,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ABOUT-01 | Phase 2 | Complete |
 | ABOUT-02 | Phase 2 | Complete |
 | ABOUT-03 | Phase 2 | Complete |
-| CLIP-01 | Phase 3 | Pending |
-| CLIP-02 | Phase 3 | Pending |
+| CLIP-01 | Phase 3 | Complete |
+| CLIP-02 | Phase 3 | Complete |
 | PHOTO-01 | Phase 4 | Pending |
 | PHOTO-02 | Phase 4 | Pending |
 | PHOTO-03 | Phase 4 | Pending |
