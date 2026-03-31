@@ -13,9 +13,63 @@
 <body>
   <site-nav></site-nav>
   <main class="page-content">
-    <h1>Awards</h1>
-    <p>Content coming soon.</p>
+    <h1>Awards &amp; Press</h1>
+    <section class="awards-section">
+      <h2 class="section-heading">Awards</h2>
+      <div id="awards-list">
+        <p>Loading...</p>
+      </div>
+    </section>
+    <section class="press-section">
+      <h2 class="section-heading">Press Coverage</h2>
+      <div id="press-list">
+        <p>Loading...</p>
+      </div>
+    </section>
   </main>
   <site-footer></site-footer>
+  <script>
+    fetch('./data.json')
+      .then(r => r.json())
+      .then(data => {
+        // Awards section
+        const awardsContainer = document.getElementById('awards-list');
+        awardsContainer.innerHTML = data.awards.map(a => {
+          const href = a.url || a.pdf_fallback;
+          const articleLine = a.article_title
+            ? `<p class="award-piece">${
+                href
+                  ? `<a href="${href}" target="_blank" rel="noopener">${a.article_title}</a>`
+                  : a.article_title
+              }</p>`
+            : '';
+          return `
+            <div class="award-entry">
+              <h3 class="award-name">${a.name}</h3>
+              <p class="award-org">${a.organization} &mdash; ${a.year}</p>
+              ${articleLine}
+            </div>
+          `;
+        }).join('');
+
+        // Press coverage section
+        const pressContainer = document.getElementById('press-list');
+        pressContainer.innerHTML = data.press_coverage.map(item => `
+          <div class="press-item">
+            <p class="press-outlet">${item.outlet}</p>
+            <h3 class="press-title">
+              <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+            </h3>
+            <p class="press-desc">${item.description}</p>
+          </div>
+        `).join('');
+      })
+      .catch(() => {
+        document.getElementById('awards-list').innerHTML =
+          '<p>Unable to load awards. Please try again.</p>';
+        document.getElementById('press-list').innerHTML =
+          '<p>Unable to load press coverage. Please try again.</p>';
+      });
+  </script>
 </body>
 </html>
