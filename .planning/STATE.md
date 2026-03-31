@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-01-PLAN.md — clips.html built, Phase 3 CSS added to style.css
-last_updated: "2026-03-31T19:00:34.997Z"
+stopped_at: Completed 03-02-PLAN.md — awards.html built with two sections from data.json
+last_updated: "2026-03-31T19:16:55.691Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 9
-  completed_plans: 7
+  completed_plans: 8
   percent: 33
 ---
 
@@ -58,6 +58,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 02-shell-and-about P03 | 5min | 1 tasks | 1 files |
 | Phase 02-shell-and-about P03 | 15min | 2 tasks | 0 files |
 | Phase 03-clips-and-awards P01 | 10 | 2 tasks | 2 files |
+| Phase 03-clips-and-awards P02 | 2min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,8 @@ Recent decisions affecting current work:
 - [Phase 02-shell-and-about]: GitHub Pages serves from main branch root — no build step, static files served directly
 - [Phase 03-clips-and-awards]: User overrode CLIP-01 8-15 clip target — 3 curated clips approved for launch; data.json unchanged
 - [Phase 03-clips-and-awards]: fetch-and-render pattern established for clips.html — inline script fetches data.json, UTC-safe date formatting (iso+T00:00:00)
+- [Phase 03-clips-and-awards]: URL fallback uses const href = a.url || a.pdf_fallback — empty string is falsy so this correctly falls through to pdf_fallback and then to no link
+- [Phase 03-clips-and-awards]: h3 used for award names, h2 for section headings — maintains semantic heading hierarchy under page h1
 
 ### Pending Todos
 
@@ -100,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-31T19:00:34.989Z
-Stopped at: Completed 03-01-PLAN.md — clips.html built, Phase 3 CSS added to style.css
+Last session: 2026-03-31T19:16:55.689Z
+Stopped at: Completed 03-02-PLAN.md — awards.html built with two sections from data.json
 Resume file: None

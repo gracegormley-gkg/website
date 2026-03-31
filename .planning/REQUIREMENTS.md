@@ -54,8 +54,8 @@
 
 ### Awards & Press
 
-- [ ] **AWARD-01**: User can view Grace's award-winning articles with award name, organization, and link to the piece
-- [ ] **AWARD-02**: User can view press coverage of Grace's work (Verde Magazine, Paly Voice, Hearts of Gold podcast) with links
+- [x] **AWARD-01**: User can view Grace's award-winning articles with award name, organization, and link to the piece
+- [x] **AWARD-02**: User can view press coverage of Grace's work (Verde Magazine, Paly Voice, Hearts of Gold podcast) with links
 
 ## v2 Requirements
 
@@ -114,8 +114,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SUSO-02 | Phase 5 | Pending |
 | SUSO-03 | Phase 5 | Pending |
 | SUSO-04 | Phase 5 | Pending |
-| AWARD-01 | Phase 3 | Pending |
-| AWARD-02 | Phase 3 | Pending |
+| AWARD-01 | Phase 3 | Complete |
+| AWARD-02 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 28 total
