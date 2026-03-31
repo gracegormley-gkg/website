@@ -193,3 +193,135 @@ a:hover {
   color: var(--color-ink-muted);
   margin-top: var(--space-4);
 }
+
+/* Clips and Awards pages — Phase 3 */
+
+.page-content {
+  max-width: var(--max-width-content);
+  margin: var(--space-12) auto;
+  padding: 0 var(--space-8);
+}
+
+/* Clips page */
+.clips-list {
+  margin-top: var(--space-8);
+}
+
+.clip-card {
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.clip-card:last-child {
+  border-bottom: none;
+}
+
+.clip-title {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-2);
+}
+
+.clip-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
+.clip-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.clip-meta {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.clip-sep {
+  margin: 0 var(--space-2);
+}
+
+/* Awards page */
+.awards-section {
+  margin-bottom: var(--space-16);
+}
+
+.section-heading {
+  font-size: var(--text-xl);
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.award-entry {
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.award-entry:last-child {
+  border-bottom: none;
+}
+
+.award-name {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-1);
+}
+
+.award-org {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+  margin-bottom: var(--space-2);
+}
+
+.award-piece {
+  font-size: var(--text-sm);
+  font-family: var(--font-ui);
+}
+
+/* Press coverage */
+.press-section {
+  margin-top: var(--space-8);
+}
+
+.press-item {
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.press-item:last-child {
+  border-bottom: none;
+}
+
+.press-outlet {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-1);
+}
+
+.press-title {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-2);
+}
+
+.press-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
+.press-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.press-desc {
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+  line-height: var(--leading-body);
+}

@@ -14,8 +14,43 @@
   <site-nav></site-nav>
   <main class="page-content">
     <h1>Clips</h1>
-    <p>Content coming soon.</p>
+    <div id="clips-list">
+      <p>Loading...</p>
+    </div>
   </main>
   <site-footer></site-footer>
+  <script>
+    fetch('./data.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('clips-list');
+        if (!data.clips || data.clips.length === 0) {
+          container.innerHTML = '<p>No clips available.</p>';
+          return;
+        }
+        container.innerHTML = '<div class="clips-list">' + data.clips.map(clip => `
+          <article class="clip-card">
+            <h2 class="clip-title">
+              <a href="${clip.url}" target="_blank" rel="noopener">${clip.title}</a>
+            </h2>
+            <p class="clip-meta">
+              <span class="clip-publication">${clip.publication}</span>
+              <span class="clip-sep">&mdash;</span>
+              <span class="clip-date">${formatDate(clip.date)}</span>
+            </p>
+          </article>
+        `).join('') + '</div>';
+      })
+      .catch(() => {
+        document.getElementById('clips-list').innerHTML =
+          '<p>Unable to load clips. Please try again.</p>';
+      });
+
+    function formatDate(iso) {
+      return new Date(iso + 'T00:00:00').toLocaleDateString('en-US', {
+        year: 'numeric', month: 'long', day: 'numeric'
+      });
+    }
+  </script>
 </body>
 </html>
