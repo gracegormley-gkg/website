@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-03-PLAN.md — clips.html and awards.html deployed to GitHub Pages, all links verified
-last_updated: "2026-04-06T14:55:29.661Z"
+stopped_at: Completed 04-01-PLAN.md — photography gallery with CSS Grid, dialog lightbox, and 13 real captions
+last_updated: "2026-04-06T18:41:19.594Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 3
-  total_plans: 9
-  completed_plans: 9
+  total_plans: 11
+  completed_plans: 10
   percent: 33
 ---
 
@@ -60,6 +60,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 03-clips-and-awards P01 | 10 | 2 tasks | 2 files |
 | Phase 03-clips-and-awards P02 | 2min | 1 tasks | 1 files |
 | Phase 03-clips-and-awards P03 | 5min | 2 tasks | 0 files |
+| Phase 04-photography-gallery P01 | 15min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -93,6 +94,9 @@ Recent decisions affecting current work:
 - [Phase 03-clips-and-awards]: URL fallback uses const href = a.url || a.pdf_fallback — empty string is falsy so this correctly falls through to pdf_fallback and then to no link
 - [Phase 03-clips-and-awards]: h3 used for award names, h2 for section headings — maintains semantic heading hierarchy under page h1
 - [Phase 03-clips-and-awards]: Link verification gated on human click-test — no automated tool can confirm live external URLs open the correct article
+- [Phase 04-photography-gallery]: Native dialog element used for lightbox — no JS modal library, keyboard + touch nav wired to dialog not window
+- [Phase 04-photography-gallery]: Photo captions written from direct image inspection — taiko/Nihonmachi Matsuri, Good Trouble Lives On rally, Edgewood Preserve, swim meet
+- [Phase 04-photography-gallery]: CSS Grid auto-fill + minmax(280px, 1fr) for responsive gallery without media queries; .photo-page uses --max-width-wide (1100px)
 
 ### Pending Todos
 
@@ -105,6 +109,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T14:52:39.594Z
-Stopped at: Completed 03-03-PLAN.md — clips.html and awards.html deployed to GitHub Pages, all links verified
+Last session: 2026-04-06T18:41:19.592Z
+Stopped at: Completed 04-01-PLAN.md — photography gallery with CSS Grid, dialog lightbox, and 13 real captions
 Resume file: None
