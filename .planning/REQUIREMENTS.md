@@ -39,11 +39,11 @@
 
 ### Knight Lab
 
-- [ ] **KNIGHT-01**: User can read a full feature page about the EIS Archives project with context on what the project is and why it matters
-- [ ] **KNIGHT-02**: Page clearly describes Grace's specific role: AI team lead, built the metadata pipeline powering the theme web, map, and visualizations
-- [ ] **KNIGHT-03**: Page calls out tools and skills used: BERTopic, OCR, topic modelling, local and global LLM calls, GPT-4, Claude Code, supercompute cluster
-- [ ] **KNIGHT-04**: Page calls out the technical leadership angle: led a non-technical team, translated complex AI/data concepts clearly
-- [ ] **KNIGHT-05**: User can visit the live project via a prominent link (https://nulib-ds.github.io/EIS-Final/)
+- [x] **KNIGHT-01**: User can read a full feature page about the EIS Archives project with context on what the project is and why it matters
+- [x] **KNIGHT-02**: Page clearly describes Grace's specific role: AI team lead, built the metadata pipeline powering the theme web, map, and visualizations
+- [x] **KNIGHT-03**: Page calls out tools and skills used: BERTopic, OCR, topic modelling, local and global LLM calls, GPT-4, Claude Code, supercompute cluster
+- [x] **KNIGHT-04**: Page calls out the technical leadership angle: led a non-technical team, translated complex AI/data concepts clearly
+- [x] **KNIGHT-05**: User can visit the live project via a prominent link (https://nulib-ds.github.io/EIS-Final/)
 
 ### SUSO Camp
 
@@ -105,11 +105,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PHOTO-04 | Phase 1 | Complete |
 | VIDEO-01 | Phase 6 | Pending |
 | VIDEO-02 | Phase 6 | Pending |
-| KNIGHT-01 | Phase 5 | Pending |
-| KNIGHT-02 | Phase 5 | Pending |
-| KNIGHT-03 | Phase 5 | Pending |
-| KNIGHT-04 | Phase 5 | Pending |
-| KNIGHT-05 | Phase 5 | Pending |
+| KNIGHT-01 | Phase 5 | Complete |
+| KNIGHT-02 | Phase 5 | Complete |
+| KNIGHT-03 | Phase 5 | Complete |
+| KNIGHT-04 | Phase 5 | Complete |
+| KNIGHT-05 | Phase 5 | Complete |
 | SUSO-01 | Phase 5 | Pending |
 | SUSO-02 | Phase 5 | Pending |
 | SUSO-03 | Phase 5 | Pending |
