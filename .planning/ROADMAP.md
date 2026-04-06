@@ -90,7 +90,11 @@ Plans:
   3. The live EIS Archives site link (https://nulib-ds.github.io/EIS-Final/) is present and prominent on the Knight Lab page
   4. The SUSO Camp page covers all four pillars, mentions the Girl Scout Gold Award, the scale of impact (~70 students, 200+ magazines, camp continuing without Grace), and links to https://susocamp.weebly.com/
   5. Press coverage mentions (Verde Magazine, Paly Voice) appear on the SUSO Camp page
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 05-01-PLAN.md — Phase 5 CSS + Knight Lab page (style.css, knight-lab.html)
+- [ ] 05-02-PLAN.md — SUSO Camp page (suso-camp.html)
+- [ ] 05-03-PLAN.md — Deploy and human verification (checkpoint)
 
 ### Phase 6: Video and Pre-Launch
 **Goal**: The site is fully complete, mobile-responsive, and passes a final audit — ready to send to editors and recruiters
@@ -112,5 +116,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 2. Shell and About | 3/3 | Complete   | 2026-03-30 |
 | 3. Clips and Awards | 2/3 | In Progress|  |
 | 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
-| 5. Featured Projects | 0/TBD | Not started | - |
+| 5. Featured Projects | 0/3 | Not started | - |
 | 6. Video and Pre-Launch | 0/TBD | Not started | - |
