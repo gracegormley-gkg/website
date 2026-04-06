@@ -374,6 +374,9 @@ a:hover {
   height: 100dvh;
   max-height: 100dvh;
   margin: 0;
+}
+
+.photo-lightbox[open] {
   display: flex;
   align-items: center;
   justify-content: center;
