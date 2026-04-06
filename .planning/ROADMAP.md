@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - Design system, data schema, and image optimization — the shared substrate everything else is built on (completed 2026-03-20)
 - [x] **Phase 2: Shell and About** - Shared nav/footer web components, About page, and verified GitHub Pages deployment (completed 2026-03-30)
 - [ ] **Phase 3: Clips and Awards** - The two pages editors navigate to first: curated clips and linked award-winning work
-- [ ] **Phase 4: Photography Gallery** - Curated photo grid with lightbox using web-optimized images from the project folder
+- [x] **Phase 4: Photography Gallery** - Curated photo grid with lightbox using web-optimized images from the project folder (completed 2026-04-06)
 - [ ] **Phase 5: Featured Projects** - Knight Lab EIS Archives showcase and SUSO Camp page
 - [ ] **Phase 6: Video and Pre-Launch** - Video embeds, mobile responsiveness audit, and full pre-launch link check
 
@@ -111,6 +111,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 1. Foundation | 3/3 | Complete   | 2026-03-20 |
 | 2. Shell and About | 3/3 | Complete   | 2026-03-30 |
 | 3. Clips and Awards | 2/3 | In Progress|  |
-| 4. Photography Gallery | 1/2 | In Progress|  |
+| 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
 | 5. Featured Projects | 0/TBD | Not started | - |
 | 6. Video and Pre-Launch | 0/TBD | Not started | - |

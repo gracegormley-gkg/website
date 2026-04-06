@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 04-01-PLAN.md — photography gallery with CSS Grid, dialog lightbox, and 13 real captions
-last_updated: "2026-04-06T18:41:19.594Z"
+stopped_at: Completed 04-02-PLAN.md — re-optimized photo-12 and photo-13, pushed to GitHub Pages; awaiting human verification of live gallery
+last_updated: "2026-04-06T18:44:22.169Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
   percent: 33
 ---
 
@@ -61,6 +61,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 03-clips-and-awards P02 | 2min | 1 tasks | 1 files |
 | Phase 03-clips-and-awards P03 | 5min | 2 tasks | 0 files |
 | Phase 04-photography-gallery P01 | 15min | 2 tasks | 3 files |
+| Phase 04-photography-gallery P02 | 10min | 1 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -97,6 +98,7 @@ Recent decisions affecting current work:
 - [Phase 04-photography-gallery]: Native dialog element used for lightbox — no JS modal library, keyboard + touch nav wired to dialog not window
 - [Phase 04-photography-gallery]: Photo captions written from direct image inspection — taiko/Nihonmachi Matsuri, Good Trouble Lives On rally, Edgewood Preserve, swim meet
 - [Phase 04-photography-gallery]: CSS Grid auto-fill + minmax(280px, 1fr) for responsive gallery without media queries; .photo-page uses --max-width-wide (1100px)
+- [Phase 04-photography-gallery]: photo-12 and photo-13 resized to 1200px wide (at q65) — sips quality floor of 45 alone could not reach 400 KB for high-detail images; dimension reduction preserved quality while meeting size target
 
 ### Pending Todos
 
@@ -109,6 +111,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T18:41:19.592Z
-Stopped at: Completed 04-01-PLAN.md — photography gallery with CSS Grid, dialog lightbox, and 13 real captions
+Last session: 2026-04-06T18:44:22.167Z
+Stopped at: Completed 04-02-PLAN.md — re-optimized photo-12 and photo-13, pushed to GitHub Pages; awaiting human verification of live gallery
 Resume file: None
