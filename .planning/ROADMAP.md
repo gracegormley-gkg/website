@@ -75,7 +75,10 @@ Plans:
   1. The Photography page displays a CSS Grid thumbnail gallery of 8–12 curated photos that loads completely in under 3 seconds on a standard connection
   2. Clicking any thumbnail opens the full-size image in a lightbox overlay with keyboard navigation (arrow keys, Escape to close) and swipe support on touch devices
   3. Every photo in the gallery has a caption that provides story context — not a filename, not a date stamp
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 04-01-PLAN.md — Captions + photos.html gallery with CSS Grid + lightbox JS
+- [ ] 04-02-PLAN.md — Image re-optimization (photo-12/13), deploy, and human verification
 
 ### Phase 5: Featured Projects
 **Goal**: Visitors understand Grace's specific technical contribution to the EIS Archives project and her founding role in SUSO Camp — the two strongest differentiators beyond clips
@@ -108,6 +111,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 1. Foundation | 3/3 | Complete   | 2026-03-20 |
 | 2. Shell and About | 3/3 | Complete   | 2026-03-30 |
 | 3. Clips and Awards | 2/3 | In Progress|  |
-| 4. Photography Gallery | 0/TBD | Not started | - |
+| 4. Photography Gallery | 0/2   | Planning    | - |
 | 5. Featured Projects | 0/TBD | Not started | - |
 | 6. Video and Pre-Launch | 0/TBD | Not started | - |
