@@ -12,10 +12,90 @@
 </head>
 <body>
   <site-nav></site-nav>
-  <main class="page-content">
+  <main class="photo-page">
     <h1>Photography</h1>
-    <p>Content coming soon.</p>
+    <div id="photo-grid" class="photo-grid"></div>
   </main>
+  <dialog id="lightbox" class="photo-lightbox" aria-label="Photo lightbox">
+    <button class="lightbox-close" id="lb-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lb-prev" aria-label="Previous photo">&#8592;</button>
+    <button class="lightbox-next" id="lb-next" aria-label="Next photo">&#8594;</button>
+    <figure class="lightbox-figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption" class="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
   <site-footer></site-footer>
+  <script>
+    let photos = [];
+    let current = 0;
+
+    const dialog = document.getElementById('lightbox');
+    const lbImg  = document.getElementById('lb-img');
+    const lbCap  = document.getElementById('lb-caption');
+
+    function openLightbox(index) {
+      current = index;
+      const p = photos[current];
+      lbImg.src = p.file;
+      lbImg.alt = p.alt;
+      lbCap.textContent = p.caption;
+      dialog.showModal();
+    }
+
+    function navigate(dir) {
+      current = (current + dir + photos.length) % photos.length;
+      const p = photos[current];
+      lbImg.src = p.file;
+      lbImg.alt = p.alt;
+      lbCap.textContent = p.caption;
+    }
+
+    dialog.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight') navigate(1);
+      if (e.key === 'ArrowLeft')  navigate(-1);
+      if (e.key === 'Escape')     dialog.close();
+    });
+
+    dialog.addEventListener('click', e => {
+      if (e.target === dialog) dialog.close();
+    });
+
+    document.getElementById('lb-prev').addEventListener('click', () => navigate(-1));
+    document.getElementById('lb-next').addEventListener('click', () => navigate(1));
+    document.getElementById('lb-close').addEventListener('click', () => dialog.close());
+
+    let touchStartX = 0;
+    dialog.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].clientX;
+    }, { passive: true });
+    dialog.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(dx) > 50) navigate(dx < 0 ? 1 : -1);
+    });
+
+    fetch('./data.json')
+      .then(r => r.json())
+      .then(data => {
+        photos = data.photos || [];
+        const grid = document.getElementById('photo-grid');
+        if (photos.length === 0) {
+          grid.innerHTML = '<p>No photos available.</p>';
+          return;
+        }
+        grid.innerHTML = photos.map((p, i) => `
+          <button class="photo-thumb" data-index="${i}" aria-label="View photo: ${p.alt}">
+            <img src="${p.file}" alt="${p.alt}" loading="lazy">
+          </button>
+        `).join('');
+        grid.querySelectorAll('.photo-thumb').forEach(btn => {
+          btn.addEventListener('click', () => openLightbox(+btn.dataset.index));
+        });
+      })
+      .catch(() => {
+        document.getElementById('photo-grid').innerHTML =
+          '<p>Unable to load photos. Please try again.</p>';
+      });
+  </script>
 </body>
 </html>
