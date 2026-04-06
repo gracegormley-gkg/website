@@ -47,10 +47,10 @@
 
 ### SUSO Camp
 
-- [ ] **SUSO-01**: User can read about the Stand Up, Speak Out journalism camp project with an overview and the four pillars (Writing, Public Speaking, Results, Longevity)
-- [ ] **SUSO-02**: Page provides context on the Girl Scout Gold Award and the scale of impact (~70 students, 200+ magazines printed, camp continued without Grace)
-- [ ] **SUSO-03**: User can visit the SUSO camp resource website (https://susocamp.weebly.com/)
-- [ ] **SUSO-04**: Page includes relevant press coverage mentions (Verde Magazine, Paly Voice)
+- [x] **SUSO-01**: User can read about the Stand Up, Speak Out journalism camp project with an overview and the four pillars (Writing, Public Speaking, Results, Longevity)
+- [x] **SUSO-02**: Page provides context on the Girl Scout Gold Award and the scale of impact (~70 students, 200+ magazines printed, camp continued without Grace)
+- [x] **SUSO-03**: User can visit the SUSO camp resource website (https://susocamp.weebly.com/)
+- [x] **SUSO-04**: Page includes relevant press coverage mentions (Verde Magazine, Paly Voice)
 
 ### Awards & Press
 
@@ -110,10 +110,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | KNIGHT-03 | Phase 5 | Complete |
 | KNIGHT-04 | Phase 5 | Complete |
 | KNIGHT-05 | Phase 5 | Complete |
-| SUSO-01 | Phase 5 | Pending |
-| SUSO-02 | Phase 5 | Pending |
-| SUSO-03 | Phase 5 | Pending |
-| SUSO-04 | Phase 5 | Pending |
+| SUSO-01 | Phase 5 | Complete |
+| SUSO-02 | Phase 5 | Complete |
+| SUSO-03 | Phase 5 | Complete |
+| SUSO-04 | Phase 5 | Complete |
 | AWARD-01 | Phase 3 | Complete |
 | AWARD-02 | Phase 3 | Complete |
 

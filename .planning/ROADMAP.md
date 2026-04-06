@@ -116,5 +116,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 2. Shell and About | 3/3 | Complete   | 2026-03-30 |
 | 3. Clips and Awards | 2/3 | In Progress|  |
 | 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
-| 5. Featured Projects | 1/3 | In Progress|  |
+| 5. Featured Projects | 2/3 | In Progress|  |
 | 6. Video and Pre-Launch | 0/TBD | Not started | - |

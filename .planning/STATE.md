@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 05-01-PLAN.md — Knight Lab EIS Archives page live with full editorial content and Phase 5 CSS
-last_updated: "2026-04-06T21:51:06.540Z"
+stopped_at: Completed 05-02-PLAN.md — SUSO Camp page live with full editorial content
+last_updated: "2026-04-06T21:53:12.038Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 4
   total_plans: 14
-  completed_plans: 12
+  completed_plans: 13
   percent: 33
 ---
 
@@ -63,6 +63,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 04-photography-gallery P01 | 15min | 2 tasks | 3 files |
 | Phase 04-photography-gallery P02 | 10min | 1 tasks | 2 files |
 | Phase 05-featured-projects P01 | 10min | 2 tasks | 2 files |
+| Phase 05-featured-projects P02 | 2min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -102,6 +103,8 @@ Recent decisions affecting current work:
 - [Phase 04-photography-gallery]: photo-12 and photo-13 resized to 1200px wide (at q65) — sips quality floor of 45 alone could not reach 400 KB for high-detail images; dimension reduction preserved quality while meeting size target
 - [Phase 05-featured-projects]: Exact prose from plan spec used verbatim in knight-lab.html sections to guarantee KNIGHT requirement traceability
 - [Phase 05-featured-projects]: Phase 5 CSS classes (tool-tags, tool-tag, pillars-list, pillar-card, pillar-name) appended to style.css for reuse on SUSO Camp page
+- [Phase 05-featured-projects]: Static HTML used for press coverage (no fetch()) — same pattern as About page; content is stable
+- [Phase 05-featured-projects]: CTA button placed after Impact section for narrative flow — story, pillars, scale, then call to action
 
 ### Pending Todos
 
@@ -114,6 +117,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T21:51:06.538Z
-Stopped at: Completed 05-01-PLAN.md — Knight Lab EIS Archives page live with full editorial content and Phase 5 CSS
+Last session: 2026-04-06T21:53:12.037Z
+Stopped at: Completed 05-02-PLAN.md — SUSO Camp page live with full editorial content
 Resume file: None
