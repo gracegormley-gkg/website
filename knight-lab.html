@@ -17,10 +17,60 @@
     <p class="about-tagline">EIS Archives — World's Largest Exploratory EIS Database</p>
 
     <h2 class="section-heading">About the Project</h2>
-    <p>The EIS Archives is a digital humanities project at Northwestern University's Knight Lab that makes 115 Environmental Impact Statements searchable and explorable for the first time. The collection spans 10 major themes and 17 subthemes, organized around climate change narratives drawn from federal environmental documents. Visitors can explore an interactive theme network, a geographic map of all documents, and curated thematic exhibitions.</p>
+    <p>The EIS Archives is a digital humanities project at Northwestern University's Knight Lab, funded by a grant from the Mellon Foundation.</p>
+    <p>In the prototype phase of the project, I worked in a team of 9 interdisciplinary students to take 181 Environmental Impact Statements and turn them into a digital exhibit, making them searchable and accessible for the first time. Visitors can explore an interactive theme network, a geographic map of all documents, and curated thematic exhibitions.</p>
 
     <h2 class="section-heading">Grace's Contribution</h2>
-    <p>Grace served as <strong>AI Team Lead</strong>, building the metadata pipeline that powers the theme network visualization and the geographic document map. She led a non-technical team through the technical dimensions of the project — translating AI and data science concepts into actionable workflows for collaborators without a computer science background.</p>
+    <p>My role was extracting the metadata from the documents, which was the backbone for the final product. I improved numerous hard skills and more importantly, built adaptability and became a strong technical leader for a non-technical team.</p>
+    <p>Here is my process:</p>
+    <figure class="pipeline-figure">
+      <figcaption class="pipeline-caption">My metadata extraction pipeline — the backbone of the EIS Archives exhibit</figcaption>
+      <div class="pipeline-shared">
+        <div class="pipeline-node pipeline-node--input">181 EIS document images</div>
+        <div class="pipeline-arrow">↓</div>
+        <div class="pipeline-node">
+          <strong>OCR</strong>
+          <span>Optical Character Recognition</span>
+        </div>
+        <div class="pipeline-arrow">↓</div>
+      </div>
+      <div class="pipeline-split">
+        <div class="pipeline-track">
+          <div class="pipeline-track-label">Entity extraction</div>
+          <div class="pipeline-node">
+            <strong>Spacy NER</strong>
+            <span>Named Entity Recognition</span>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-node">
+            <strong>LLM</strong>
+            <span>Find "main place" and key people</span>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-node">
+            <strong>Geopy</strong>
+            <span>Geocoding</span>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-outputs">
+            <div class="pipeline-output">Main place with coordinates</div>
+            <div class="pipeline-output">Key people</div>
+          </div>
+        </div>
+        <div class="pipeline-track">
+          <div class="pipeline-track-label">Document metadata</div>
+          <div class="pipeline-node">
+            <strong>LLM</strong>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-outputs">
+            <div class="pipeline-output">Summary</div>
+            <div class="pipeline-output">Historical context</div>
+            <div class="pipeline-output">Completed (Y/N)</div>
+          </div>
+        </div>
+      </div>
+    </figure>
 
     <h2 class="section-heading">Tools &amp; Skills</h2>
     <div class="tool-tags">
@@ -34,7 +84,7 @@
     </div>
 
     <h2 class="section-heading">Explore the Live Project</h2>
-    <p>The EIS Archives is live and publicly accessible:</p>
+    <p>The EIS Archives prototype is live and publicly accessible:</p>
     <a href="https://nulib-ds.github.io/EIS-Final/" target="_blank" rel="noopener" class="btn-download">Visit the EIS Archives</a>
   </main>
   <site-footer></site-footer>
