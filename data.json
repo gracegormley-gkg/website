@@ -92,13 +92,18 @@
   "videos": [
     {
       "title": "What Can We Do?",
-      "embedUrl": "PLACEHOLDER — YouTube or Vimeo embed URL needed from Grace",
-      "description": "A video package produced and edited by Grace Gormley."
+      "embedUrl": "https://drive.google.com/file/d/1Z1eES8i1zPaYjtsdL4u_YIMbo5e0D5tJ/view?usp=drive_link",
+      "description": "A video package covering climate anxiety and how community members mitigate it, produced and edited by Grace Gormley for a Medill class."
     },
     {
       "title": "Move Your Feet",
-      "embedUrl": "PLACEHOLDER — YouTube or Vimeo embed URL needed from Grace",
-      "description": "A video package produced and edited by Grace Gormley."
+      "embedUrl": "https://drive.google.com/file/d/1zMb9giMYnnSkcAujEtiLteKhbzDMzXdJ/view?usp=drive_link",
+      "description": "A video package covering a local dance teacher, produced and edited by Grace Gormley for a Medill class."
+    },
+    {
+      "title": "Illuminating Alternate Paths",
+      "embedUrl": "https://drive.google.com/file/d/1TzYyW21dn3mrNlYra-FYew3debvV5u_1/view?usp=sharing",
+      "description": "A video package covering a local Trade Fair for high school students, produced and edited by Grace Gormley for a Medill class."
     }
   ],
 

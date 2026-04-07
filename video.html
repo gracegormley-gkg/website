@@ -15,12 +15,6 @@
   <main class="page-content">
     <h1>Video</h1>
 
-    <p class="about-bio">
-      Grace Gormley produces and edits video packages using Adobe Premiere.
-      Her work includes documentary-style storytelling, community coverage,
-      and multimedia journalism.
-    </p>
-
     <div id="video-list"></div>
   </main>
   <site-footer></site-footer>
@@ -35,6 +29,8 @@ function toEmbedUrl(url) {
   if (ytMatch) return 'https://www.youtube-nocookie.com/embed/' + ytMatch[1];
   var viMatch = url.match(/vimeo\.com\/(\d+)/);
   if (viMatch) return 'https://player.vimeo.com/video/' + viMatch[1];
+  var gdMatch = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+  if (gdMatch) return 'https://drive.google.com/file/d/' + gdMatch[1] + '/preview';
   return url;
 }
 
