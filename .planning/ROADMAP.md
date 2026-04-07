@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 3: Clips and Awards** - The two pages editors navigate to first: curated clips and linked award-winning work
 - [x] **Phase 4: Photography Gallery** - Curated photo grid with lightbox using web-optimized images from the project folder (completed 2026-04-06)
 - [x] **Phase 5: Featured Projects** - Knight Lab EIS Archives showcase and SUSO Camp page (completed 2026-04-06)
-- [ ] **Phase 6: Video and Pre-Launch** - Video embeds, mobile responsiveness audit, and full pre-launch link check
+- [x] **Phase 6: Video and Pre-Launch** - Video embeds, mobile responsiveness audit, and full pre-launch link check (completed 2026-04-07)
 
 ## Phase Details
 
@@ -121,4 +121,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Clips and Awards | 2/3 | In Progress|  |
 | 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
 | 5. Featured Projects | 3/3 | Complete   | 2026-04-06 |
-| 6. Video and Pre-Launch | 1/2 | In Progress|  |
+| 6. Video and Pre-Launch | 2/2 | Complete   | 2026-04-07 |
