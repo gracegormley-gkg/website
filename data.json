@@ -35,27 +35,39 @@
   "photos": [
     {
       "file": "images/photo-01.jpg",
-      "caption": "A taiko drummer performs at the Nihonmachi Matsuri in San Jose, bringing together generations of the Japanese American community.",
+      "caption": "Vicky Zhang, center, performs with Taiko SOBA at Palo Alto's Obon Festival in 2025. Taiko is a traditional Japanese percussion art, common at festivals like Obon.",
       "credit": "Grace Gormley",
       "alt": "A young woman laughs joyfully while raising taiko drumsticks above her head during an outdoor festival performance, with other drummers visible behind her."
     },
     {
-      "file": "images/photo-02.jpg",
-      "caption": "Drummers share a moment of focus at the Nihonmachi Matsuri street fair, where taiko groups performed throughout the afternoon.",
-      "credit": "Grace Gormley",
-      "alt": "A young woman smiles while learning taiko drumming alongside an older woman with gray hair at an outdoor Japanese festival."
-    },
-    {
       "file": "images/photo-03.jpg",
-      "caption": "Children dressed in yukata watch festival performances at the Nihonmachi Matsuri, an annual celebration of Japanese American culture in San Jose.",
+      "caption": "Children dressed in yukata participate in the Bon Odori, a dance performed by the community at the end of the festival.",
       "credit": "Grace Gormley",
       "alt": "Two young girls wearing floral yukata and traditional hair accessories stand side by side watching a festival performance, smiling."
     },
     {
-      "file": "images/photo-04.jpg",
-      "caption": "A dried thistle seed head catches the light at Edgewood Preserve, where conservationists work to protect rare native plants from invasive species.",
+      "file": "images/photo-11.jpg",
+      "caption": "Two intergenerational community members share in the Bon Odori. This dance is said to come from the origin of the Obon festival, where Moggallana (one of the Buddha's closest disciples) danced with joy when his mother was freed from the plane of Hungry Ghosts.",
       "credit": "Grace Gormley",
-      "alt": "Close-up macro photograph of a dried spiny thistle seed head with intricate lace-like texture against a blurred golden background."
+      "alt": "An elderly man with white hair and an orange happi coat holds a young boy dressed in a patterned kimono against a bright blue sky."
+    },
+    {
+      "file": "images/photo-06.jpg",
+      "caption": "Alice Smith, executive director of the National Voter Corps, speaks out against the SAVE Act at the Palo Alto 'Good Trouble Lives On' rally.",
+      "credit": "Grace Gormley",
+      "alt": "An elderly white woman in glasses and a white blazer speaks passionately into a microphone at an outdoor rally beneath a 'Good Trouble Lives On' banner."
+    },
+    {
+      "file": "images/photo-07.jpg",
+      "caption": "A young protester holds a sign at the 'Good Trouble Lives On' rally in Palo Alto, honoring the legacy of the late Congressman John Lewis.",
+      "credit": "Grace Gormley",
+      "alt": "A young girl holds a large handwritten sign reading 'Resist — Defend Democracy, Fight Fascism' at an outdoor rally surrounded by other protesters."
+    },
+    {
+      "file": "images/photo-13.jpg",
+      "caption": "Attendees at the 'Good Trouble Lives On' rally in Palo Alto chat while one holds a sign overhead.",
+      "credit": "Grace Gormley",
+      "alt": "A person holds a cardboard sign reading 'It's Up To Us Resist!' alongside an American flag at an outdoor rally under tree cover."
     },
     {
       "file": "images/photo-05.jpg",
@@ -64,52 +76,16 @@
       "alt": "A brown deer with large ears looks directly at the camera against a blurred green and golden field background."
     },
     {
-      "file": "images/photo-06.jpg",
-      "caption": "A speaker addresses hundreds gathered at the 'Good Trouble Lives On' rally in Palo Alto, honoring the legacy of the late Congressman John Lewis.",
-      "credit": "Grace Gormley",
-      "alt": "An elderly white woman in glasses and a white blazer speaks passionately into a microphone at an outdoor rally beneath a 'Good Trouble Lives On' banner."
-    },
-    {
-      "file": "images/photo-07.jpg",
-      "caption": "A young girl holds a handmade 'Resist — Defend Democracy, Fight Fascism' sign at the Good Trouble Lives On demonstration in downtown Palo Alto.",
-      "credit": "Grace Gormley",
-      "alt": "A young girl holds a large handwritten sign reading 'Resist — Defend Democracy, Fight Fascism' at an outdoor rally surrounded by other protesters."
-    },
-    {
-      "file": "images/photo-08.jpg",
-      "caption": "A taiko drummer smiles between beats at the Nihonmachi Matsuri, where the rhythm of the drums drew crowds throughout the day.",
-      "credit": "Grace Gormley",
-      "alt": "A man in a navy blue shirt grins widely while holding a drumstick beside a large taiko drum at an outdoor festival."
-    },
-    {
-      "file": "images/photo-09.jpg",
-      "caption": "The joy of the performance is visible on a taiko drummer's face at the Nihonmachi Matsuri street fair in San Jose.",
-      "credit": "Grace Gormley",
-      "alt": "A middle-aged man with a wide smile looks upward while playing a large taiko drum at an outdoor festival, with another drummer in blue visible behind him."
-    },
-    {
       "file": "images/photo-10.jpg",
-      "caption": "A swimmer launches off the starting block into the pool during a competitive swim meet, her form suspended mid-dive above the churning water.",
+      "caption": "Lucy Zhou launches into her relay leg swimming for Palo Alto High School. Zhou now swims for Michigan Institute of Technology.",
       "credit": "Grace Gormley",
       "alt": "A swimmer in a black one-piece suit dives off a starting block into a pool lane during a swim meet, body fully extended in the air."
     },
     {
-      "file": "images/photo-11.jpg",
-      "caption": "A grandfather holds his grandson at the Nihonmachi Matsuri, where families gathered to celebrate Japanese American heritage across generations.",
-      "credit": "Grace Gormley",
-      "alt": "An elderly man with white hair and an orange happi coat holds a young boy dressed in a patterned kimono against a bright blue sky."
-    },
-    {
       "file": "images/photo-12.jpg",
-      "caption": "Walmart associates in 'Happy to Help' vests dance together at a community event, celebrating the store's ties to the local neighborhood.",
+      "caption": "Walmart associates dance together to a mariachi band as community members — including Mayor Ellen Kamei — gather to celebrate the opening of the upgraded Walmart 'Supercenter.'",
       "credit": "Grace Gormley",
       "alt": "A group of women wearing blue 'Happy to Help' vests dance in a circle holding hands in a parking lot while a crowd looks on."
-    },
-    {
-      "file": "images/photo-13.jpg",
-      "caption": "Demonstrators carry signs at a resistance rally in Palo Alto, calling on community members to defend democratic institutions.",
-      "credit": "Grace Gormley",
-      "alt": "A person holds a cardboard sign reading 'It's Up To Us Resist!' alongside an American flag at an outdoor rally under tree cover."
     }
   ],
 
