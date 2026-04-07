@@ -522,6 +522,52 @@ a:hover {
   margin-right: auto;
 }
 
+/* EIS document image — Knight Lab page */
+.eis-doc-figure {
+  margin: var(--space-8) 0;
+  text-align: center;
+}
+
+.eis-doc-figure img {
+  max-width: 420px;
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: block;
+  margin: 0 auto;
+}
+
+.eis-doc-figure figcaption {
+  margin-top: var(--space-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+/* SUSO photo strip */
+.suso-photo-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  margin: var(--space-6) 0 var(--space-8);
+}
+
+.suso-photo-strip img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .suso-photo-strip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-2);
+  }
+}
+
 /* EIS Pipeline Diagram — Knight Lab page */
 .pipeline-figure {
   margin: var(--space-8) 0;
