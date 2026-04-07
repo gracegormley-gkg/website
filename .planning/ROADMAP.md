@@ -121,4 +121,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Clips and Awards | 2/3 | In Progress|  |
 | 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
 | 5. Featured Projects | 3/3 | Complete   | 2026-04-06 |
-| 6. Video and Pre-Launch | 0/2 | Not started | - |
+| 6. Video and Pre-Launch | 1/2 | In Progress|  |

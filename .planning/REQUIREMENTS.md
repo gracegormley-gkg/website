@@ -9,7 +9,7 @@
 
 - [x] **SITE-01**: User can navigate between all 7 pages (About, Clips, Photography, Video, Knight Lab, SUSO Camp, Awards) via a consistent navigation bar
 - [x] **SITE-02**: User sees email and LinkedIn contact links in a footer on every page
-- [ ] **SITE-03**: Site renders correctly on mobile (375px viewport minimum)
+- [x] **SITE-03**: Site renders correctly on mobile (375px viewport minimum)
 - [x] **SITE-04**: Site deploys and is publicly accessible via GitHub Pages
 - [x] **SITE-05**: Grace can update clips, photos, and awards by editing a single `data.json` file without touching HTML or CSS
 - [x] **SITE-06**: Site uses modern minimal editorial design (clean whitespace, Newsreader + Inter typography, no decorative clutter)
@@ -34,8 +34,8 @@
 
 ### Video
 
-- [ ] **VIDEO-01**: User can watch "What Can We Do?" and "Move Your Feet" as embedded videos on the Video page
-- [ ] **VIDEO-02**: Video page notes Grace's Adobe Premiere experience
+- [x] **VIDEO-01**: User can watch "What Can We Do?" and "Move Your Feet" as embedded videos on the Video page
+- [x] **VIDEO-02**: Video page notes Grace's Adobe Premiere experience
 
 ### Knight Lab
 
@@ -90,7 +90,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | SITE-01 | Phase 2 | Complete |
 | SITE-02 | Phase 2 | Complete |
-| SITE-03 | Phase 6 | Pending |
+| SITE-03 | Phase 6 | Complete |
 | SITE-04 | Phase 2 | Complete |
 | SITE-05 | Phase 1 | Complete |
 | SITE-06 | Phase 1 | Complete |
@@ -103,8 +103,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PHOTO-02 | Phase 4 | Complete |
 | PHOTO-03 | Phase 4 | Complete |
 | PHOTO-04 | Phase 1 | Complete |
-| VIDEO-01 | Phase 6 | Pending |
-| VIDEO-02 | Phase 6 | Pending |
+| VIDEO-01 | Phase 6 | Complete |
+| VIDEO-02 | Phase 6 | Complete |
 | KNIGHT-01 | Phase 5 | Complete |
 | KNIGHT-02 | Phase 5 | Complete |
 | KNIGHT-03 | Phase 5 | Complete |

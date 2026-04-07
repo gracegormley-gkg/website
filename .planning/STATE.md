@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 05-03-PLAN.md — Phase 5 complete, both pages live and human-verified on GitHub Pages
-last_updated: "2026-04-06T21:59:47.149Z"
+stopped_at: Completed 06-01-PLAN.md — Video page and mobile CSS complete
+last_updated: "2026-04-07T00:28:14.021Z"
 last_activity: 2026-03-20 — Roadmap created, requirements validated, files written
 progress:
   total_phases: 6
   completed_phases: 5
-  total_plans: 14
-  completed_plans: 14
+  total_plans: 16
+  completed_plans: 15
   percent: 33
 ---
 
@@ -65,6 +65,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 05-featured-projects P01 | 10min | 2 tasks | 2 files |
 | Phase 05-featured-projects P02 | 2min | 1 tasks | 1 files |
 | Phase 05-featured-projects P03 | 5min | 2 tasks | 0 files |
+| Phase 06-video-and-pre-launch P01 | 5min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -107,6 +108,8 @@ Recent decisions affecting current work:
 - [Phase 05-featured-projects]: Static HTML used for press coverage (no fetch()) — same pattern as About page; content is stable
 - [Phase 05-featured-projects]: CTA button placed after Impact section for narrative flow — story, pillars, scale, then call to action
 - [Phase 05-featured-projects]: Human verified all 9 Phase 5 requirements on the live GitHub Pages site — no fixes needed after push
+- [Phase 06-video-and-pre-launch]: youtube-nocookie.com used for privacy-enhanced YouTube embeds in toEmbedUrl() conversion
+- [Phase 06-video-and-pre-launch]: Video placeholder shows 'Video available upon request' — descriptive text, never blank, for PLACEHOLDER embedUrls in data.json
 
 ### Pending Todos
 
@@ -119,6 +122,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T21:57:19.675Z
-Stopped at: Completed 05-03-PLAN.md — Phase 5 complete, both pages live and human-verified on GitHub Pages
+Last session: 2026-04-07T00:28:14.001Z
+Stopped at: Completed 06-01-PLAN.md — Video page and mobile CSS complete
 Resume file: None
