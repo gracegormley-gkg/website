@@ -14,8 +14,51 @@
   <site-nav></site-nav>
   <main class="page-content">
     <h1>Video</h1>
-    <p>Content coming soon.</p>
+
+    <p class="about-bio">
+      Grace Gormley produces and edits video packages using Adobe Premiere.
+      Her work includes documentary-style storytelling, community coverage,
+      and multimedia journalism.
+    </p>
+
+    <div id="video-list"></div>
   </main>
   <site-footer></site-footer>
+
+  <script>
+function isPlaceholder(url) {
+  return !url || !url.startsWith('http');
+}
+
+function toEmbedUrl(url) {
+  var ytMatch = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&?/]+)/);
+  if (ytMatch) return 'https://www.youtube-nocookie.com/embed/' + ytMatch[1];
+  var viMatch = url.match(/vimeo\.com\/(\d+)/);
+  if (viMatch) return 'https://player.vimeo.com/video/' + viMatch[1];
+  return url;
+}
+
+fetch('./data.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    var container = document.getElementById('video-list');
+    if (!data.videos || data.videos.length === 0) {
+      container.innerHTML = '<p>No videos available.</p>';
+      return;
+    }
+    container.innerHTML = data.videos.map(function(v) {
+      var isReal = !isPlaceholder(v.embedUrl);
+      var embedSrc = isReal ? toEmbedUrl(v.embedUrl) : '';
+      return '<article class="video-item">' +
+        '<h2 class="video-title">' + v.title + '</h2>' +
+        (isReal
+          ? '<div class="video-embed"><iframe src="' + embedSrc + '" title="' + v.title + '" allowfullscreen loading="lazy"></iframe></div>'
+          : '<div class="video-placeholder" aria-label="Video coming soon"><span>Video available upon request</span></div>'
+        ) +
+        (v.description ? '<p class="video-desc">' + v.description + '</p>' : '') +
+        '</article>';
+    }).join('');
+  });
+  </script>
 </body>
 </html>
