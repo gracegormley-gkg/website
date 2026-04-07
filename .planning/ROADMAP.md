@@ -104,6 +104,10 @@ Plans:
   1. The Video page embeds "What Can We Do?" and "Move Your Feet" as playable videos, or displays a clearly designed placeholder if embed URLs are not yet available
   2. Every page of the site renders correctly at 375px viewport width — nav collapses appropriately, no horizontal scroll, no fixed-width elements overflowing the screen
   3. All 7 pages pass a manual pre-launch checklist: every external link tested, footer present, page title tags set, headshot credit present, resume PDF download confirmed working
+**Plans**: 2 plans
+Plans:
+- [ ] 06-01-PLAN.md — Video page + mobile CSS (video.html, style.css)
+- [ ] 06-02-PLAN.md — Deploy and full pre-launch checklist (checkpoint)
 
 ## Progress
 
@@ -117,4 +121,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Clips and Awards | 2/3 | In Progress|  |
 | 4. Photography Gallery | 2/2 | Complete   | 2026-04-06 |
 | 5. Featured Projects | 3/3 | Complete   | 2026-04-06 |
-| 6. Video and Pre-Launch | 0/TBD | Not started | - |
+| 6. Video and Pre-Launch | 0/2 | Not started | - |
