@@ -1,13 +1,12 @@
 /* Grace Gormley Portfolio — Design System */
 /* Fonts loaded via <link> in every page <head>:
-   Newsreader: ital,opsz,wght@0,6..72,300..800;1,6..72,300..800
-   Inter: opsz,wght@14..32,400;14..32,500;14..32,600
-   Google Fonts URL documented in the Phase 1 research file */
+   Lora: ital,wght@0,400..700;1,400..700
+   Quicksand: wght@300..700 */
 
 :root {
   /* Typography */
-  --font-editorial: 'Newsreader', Georgia, serif;
-  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-editorial: 'Lora', Georgia, serif;
+  --font-ui: 'Quicksand', system-ui, sans-serif;
 
   --text-xs:   0.75rem;   /* 12px — captions, credits */
   --text-sm:   0.875rem;  /* 14px — metadata, nav items */
