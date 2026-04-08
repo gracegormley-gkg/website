@@ -27,9 +27,11 @@
   --color-border:       #e0e0e0;  /* dividers, card borders */
   --color-bg:           #ffffff;  /* page background */
   --color-bg-subtle:    #f9f8f6;  /* subtle off-white for section backgrounds */
-  --color-accent:       #1a3a5c;  /* single accent — deep navy, used sparingly */
-  --color-link:         #1a3a5c;  /* links match accent */
-  --color-link-hover:   #0f2540;  /* slightly darker on hover */
+  --color-accent:       #282953;  /* primary accent — deep navy-indigo */
+  --color-accent-blue:  #BFCDE0;  /* secondary accent — soft periwinkle */
+  --color-accent-peach: #D59C85;  /* tertiary accent — warm peach, used sparingly */
+  --color-link:         #282953;  /* links match accent */
+  --color-link-hover:   #1b1e3d;  /* slightly darker on hover */
 
   /* Spacing — 8px grid */
   --space-1:  0.25rem;  /*  4px */
@@ -82,7 +84,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: var(--space-4) var(--space-8);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-accent-blue);
   max-width: var(--max-width-wide);
   margin: 0 auto;
 }
@@ -120,7 +122,7 @@ a:hover {
 
 /* Footer — Phase 2 */
 .site-footer {
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-accent-blue);
   padding: var(--space-8);
   text-align: center;
   font-size: var(--text-sm);
@@ -157,7 +159,7 @@ a:hover {
 .about-tagline {
   font-family: var(--font-editorial);
   font-size: var(--text-lg);
-  color: var(--color-ink-muted);
+  color: var(--color-accent-peach);
   font-style: italic;
 }
 
@@ -252,7 +254,7 @@ a:hover {
   margin-top: var(--space-8);
   margin-bottom: var(--space-6);
   padding-bottom: var(--space-3);
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 2px solid var(--color-accent-peach);
 }
 
 .award-entry {
@@ -447,7 +449,7 @@ a:hover {
   font-size: var(--text-sm);
   padding: var(--space-1) var(--space-3);
   background: var(--color-bg-subtle);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-accent-blue);
   border-radius: var(--border-radius);
   color: var(--color-ink);
 }
@@ -461,7 +463,7 @@ a:hover {
 .pillar-card {
   padding: var(--space-6);
   background: var(--color-bg-subtle);
-  border-left: 3px solid var(--color-accent);
+  border-left: 3px solid var(--color-accent-blue);
   border-radius: var(--border-radius);
 }
 
@@ -571,7 +573,7 @@ a:hover {
 /* EIS Pipeline Diagram — Knight Lab page */
 .pipeline-figure {
   margin: var(--space-8) 0;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-accent-blue);
   border-radius: var(--border-radius);
   background: var(--color-bg-subtle);
   padding: var(--space-6);
