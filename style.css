@@ -44,7 +44,7 @@
   --space-24: 6rem;     /* 96px */
 
   /* Layout */
-  --max-width-content: 720px;   /* readable column width for body text */
+  --max-width-content: 860px;   /* readable column width for body text */
   --max-width-wide:   1100px;   /* full-page containers, nav, gallery */
   --border-radius:     4px;
   --transition-fast:   150ms ease;
