@@ -182,31 +182,25 @@ site-nav {
 }
 
 .about-headshot {
-  width: 200px;
+  width: 220px;
   height: auto;
   border-radius: var(--border-radius);
   flex-shrink: 0;
 }
 
-.about-hero__text h1 {
-  font-size: var(--text-2xl);
-  margin-bottom: var(--space-2);
-}
-
-.about-tagline {
-  font-family: var(--font-editorial);
-  font-size: var(--text-lg);
-  color: var(--color-ink-muted);
-  font-style: italic;
+.about-hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-4);
 }
 
 .about-bio {
-  margin-bottom: var(--space-8);
   line-height: var(--leading-body);
 }
 
 .about-actions {
-  margin-bottom: var(--space-4);
+  margin-top: var(--space-2);
 }
 
 .btn-download {
@@ -749,7 +743,7 @@ site-nav {
   }
 
   .about-headshot {
-    width: 140px;
+    width: 160px;
   }
 
   .pipeline-split {
