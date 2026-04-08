@@ -181,11 +181,17 @@ site-nav {
   margin-bottom: var(--space-12);
 }
 
+.about-headshot-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .about-headshot {
   width: 220px;
   height: auto;
   border-radius: var(--border-radius);
-  flex-shrink: 0;
 }
 
 .about-hero__text {
