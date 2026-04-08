@@ -1,12 +1,12 @@
 /* Grace Gormley Portfolio — Design System */
 /* Fonts loaded via <link> in every page <head>:
-   Butler: via fonts.cdnfonts.com/css/butler
-   Source Sans 3: via Google Fonts */
+   Otama: via fonts.cdnfonts.com/css/otama
+   Intervogue Soft: via fonts.cdnfonts.com/css/intervogue-soft */
 
 :root {
   /* Typography */
-  --font-editorial: 'Audrey', Georgia, serif;
-  --font-ui: 'Oxygen', system-ui, sans-serif;
+  --font-editorial: 'Otama', Georgia, serif;
+  --font-ui: 'Intervogue Soft', system-ui, sans-serif;
 
   --text-xs:   0.75rem;   /* 12px — captions, credits */
   --text-sm:   0.875rem;  /* 14px — metadata, nav items */
