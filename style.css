@@ -1,12 +1,12 @@
 /* Grace Gormley Portfolio — Design System */
 /* Fonts loaded via <link> in every page <head>:
-   Lora: ital,wght@0,400..700;1,400..700
-   Quicksand: wght@300..700 */
+   Butler: via fonts.cdnfonts.com/css/butler
+   Source Sans 3: via Google Fonts */
 
 :root {
   /* Typography */
-  --font-editorial: 'Lora', Georgia, serif;
-  --font-ui: 'Quicksand', system-ui, sans-serif;
+  --font-editorial: 'Butler', Georgia, serif;
+  --font-ui: 'Source Sans 3', system-ui, sans-serif;
 
   --text-xs:   0.75rem;   /* 12px — captions, credits */
   --text-sm:   0.875rem;  /* 14px — metadata, nav items */
