@@ -5,8 +5,8 @@
 
 :root {
   /* Typography */
-  --font-editorial: 'Butler', Georgia, serif;
-  --font-ui: 'Quicksand', system-ui, sans-serif;
+  --font-editorial: 'Audrey', Georgia, serif;
+  --font-ui: 'Oxygen', system-ui, sans-serif;
 
   --text-xs:   0.75rem;   /* 12px — captions, credits */
   --text-sm:   0.875rem;  /* 14px — metadata, nav items */
