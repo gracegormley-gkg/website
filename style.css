@@ -27,11 +27,11 @@
   --color-border:       #e0e0e0;  /* dividers, card borders */
   --color-bg:           #ffffff;  /* page background */
   --color-bg-subtle:    #f9f8f6;  /* subtle off-white for section backgrounds */
-  --color-accent:       #282953;  /* primary accent — deep navy-indigo */
+  --color-accent:       #162b43;  /* primary accent — deep navy */
   --color-accent-blue:  #BFCDE0;  /* secondary accent — soft periwinkle */
   --color-accent-peach: #D59C85;  /* tertiary accent — warm peach, used sparingly */
-  --color-link:         #282953;  /* links match accent */
-  --color-link-hover:   #1b1e3d;  /* slightly darker on hover */
+  --color-link:         #162b43;  /* links match accent */
+  --color-link-hover:   #0e1e2e;  /* slightly darker on hover */
 
   /* Spacing — 8px grid */
   --space-1:  0.25rem;  /*  4px */
