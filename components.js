@@ -9,8 +9,8 @@ class SiteNav extends HTMLElement {
       { href: 'clips.html',      label: 'Clips' },
       { href: 'photos.html',     label: 'Photography' },
       { href: 'video.html',      label: 'Video' },
-      { href: 'knight-lab.html', label: 'Knight Lab' },
-      { href: 'suso-camp.html',  label: 'SUSO Camp' },
+      { href: 'knight-lab.html', label: 'Data Science' },
+      { href: 'suso-camp.html',  label: 'Service' },
       { href: 'awards.html',     label: 'Awards' },
     ];
 
