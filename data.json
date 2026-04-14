@@ -109,6 +109,14 @@
 
   "awards": [
     {
+      "name": "Casey Nichols Service Above Self Award",
+      "organization": "Journalism Education Association of NorCal",
+      "year": "2024",
+      "article_title": "",
+      "url": "",
+      "pdf_fallback": ""
+    },
+    {
       "name": "1st Place National Nonfiction Article",
       "organization": "Columbia Scholastic Press Association (Gold Circle)",
       "year": "2023",
@@ -188,14 +196,6 @@
       "url": "https://drive.google.com/file/d/15ZlaHubioWTv8X3Omu5wR1cVvtPYw35w/view",
       "pdf_fallback": ""
     },
-    {
-      "name": "Casey Nichols Service Above Self Award",
-      "organization": "Journalism Education Association of NorCal",
-      "year": "2024",
-      "article_title": "",
-      "url": "",
-      "pdf_fallback": ""
-    }
   ],
 
   "press_coverage": [
