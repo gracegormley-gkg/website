@@ -4,6 +4,15 @@
 
   "clips": [
     {
+      "title": "Can Chicago's worst police misconduct cases be handled behind closed doors?",
+      "publication": "Produced as part of Medill course: Court Watchers",
+      "date": "2026-06-02",
+      "url": "https://gracegormley-gkg.github.io/court_watchers_final/",
+      "pdf_fallback": "",
+      "featured": true,
+      "note": "Collaborative investigative piece with April Arabian, Caroline Gould, and Sol Thomas examining transparency in Chicago police misconduct hearings. Interactive TIRC timeline compiled with Claude Code."
+    },
+    {
       "title": "Hundreds gather at 'Good Trouble Lives On' event",
       "publication": "Palo Alto Online",
       "date": "2025-07-18",
