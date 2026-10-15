@@ -14,6 +14,7 @@ class SiteNav extends HTMLElement {
         href: 'data-science.html',
         activeOn: ['data-science.html', 'knight-lab.html'],
         children: [
+          { href: 'https://gracegormley-gkg.github.io/court_watchers_final/', label: 'Behind Closed Doors', external: true },
           { href: 'knight-lab.html', label: 'EIS Archives' },
         ]
       },
@@ -35,7 +36,7 @@ class SiteNav extends HTMLElement {
             <a href="${l.href}"${isActive ? ' class="active"' : ''}>${l.label}<span class="nav-dropdown__caret" aria-hidden="true">▾</span></a>
             <ul class="nav-dropdown__menu">
               ${l.children.map(c =>
-                `<li><a href="${c.href}"${path === c.href ? ' class="active-child"' : ''}>${c.label}</a></li>`
+                `<li><a href="${c.href}"${c.external ? ' target="_blank" rel="noopener"' : ''}${path === c.href ? ' class="active-child"' : ''}>${c.label}</a></li>`
               ).join('\n              ')}
             </ul>
           </li>`;
