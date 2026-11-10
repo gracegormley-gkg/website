@@ -3,39 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — Grace Gormley</title>
-
-
-  <link href="https://fonts.cdnfonts.com/css/otama" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/intervogue-soft" rel="stylesheet">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Grace Gormley</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/fish-single.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <script type="module" src="components.js"></script>
 </head>
 <body>
-  <site-nav></site-nav>
-  <div class="site-hero">
-    <h1 class="site-hero__name">Grace Gormley</h1>
-    <p class="site-hero__subtitle">Journalism and Data Science Student</p>
-    <p class="site-hero__school">Northwestern, Medill</p>
-  </div>
-  <main class="about-page">
-    <section class="about-hero">
-      <div class="about-headshot-wrap">
-        <img class="about-headshot"
-             src="images/headshot.jpg"
-             alt="Grace Gormley, photojournalist and data journalism student at Northwestern Medill"
-             width="320" height="240">
-        <p class="about-credit">Anna Hoch-Kenney</p>
-      </div>
-      <div class="about-hero__text">
-        <p class="about-bio">I am a journalism and data science double major in my sophomore year at Northwestern University, in the Medill School of Journalism. I strive to combine my data science skills with people-centric reporting to hold those in power accountable and tell important stories. I get excited about investigative and watchdog journalism driven by data.</p>
-        <div class="about-actions">
-          <a href="assets/Grace-Gormley-Resume.pdf" download="Grace-Gormley-Resume.pdf" class="btn-download">Download Resume</a>
-        </div>
-      </div>
-    </section>
+
+  <header class="grid home-info">
+    <p><b>grace gormley</b><br>journalism and data science</p>
+    <p>northwestern university<br>medill school of journalism<br>class of 2028</p>
+    <p class="home-info__mail"><a href="mailto:gracegormley@gmail.com">gracegormley@gmail.com</a></p>
+  </header>
+
+  <h1 class="home-name">grace gormley</h1>
+
+  <main class="grid home-fields">
+    <div class="home-bio">
+      <p>I am a journalism and data science double major in my third year at Northwestern University, in the Medill School of Journalism.</p>
+      <p>I strive to combine my data science skills with people-centric reporting to hold those in power accountable and tell important stories. I get excited about investigative and watchdog journalism driven by data.</p>
+    </div>
+
+    <figure class="home-photo">
+      <img src="images/headshot.jpg" alt="Grace Gormley, photojournalist and data journalism student at Northwestern Medill">
+    </figure>
+
+    <a class="field field--red" href="clips.html"><span>1</span><b>clips</b></a>
+    <a class="field" href="photos.html"><span>2</span><b>photo&shy;graphy</b></a>
+    <a class="field" href="video.html"><span>3</span><b>video</b></a>
+    <a class="field" href="service.html"><span>4</span><b>service</b></a>
+    <a class="field field--ink" href="data-science.html"><span>5</span><b>data<br>science</b></a>
+    <a class="field" href="awards.html"><span>6</span><b>awards</b></a>
   </main>
-  <site-footer></site-footer>
+
+  <site-footer credit="anna hoch-kenney"></site-footer>
+
 </body>
 </html>
